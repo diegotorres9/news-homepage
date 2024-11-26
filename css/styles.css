@@ -58,3 +58,12 @@ header .mobile-nav {
 .open {
     transition: display 250ms ease-in;
 }
+/* ----------------------------------- */
+main {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 80px;
+}
+main > section:not(:last-child) {
+    margin-bottom: 64px;
+}
