@@ -249,6 +249,10 @@ main > section:not(:last-child) {
     .fullscreen-nav ul > li:not(:first-child) {
         margin-left: 40px;
     }
+    main .top-stories {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
 }
 @media screen and (min-width: 1280px) {
     main > section:not(:last-child) {
